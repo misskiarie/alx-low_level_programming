@@ -1,16 +1,16 @@
 #include <stdio.h>
 /**
-* main - prints all combos of single digits
+* main - prints single digits
 *
 * Return: Always 0
 */
 int main(void)
 {
 int n;
-for (n = 0; n < 100; n++)
+for (n = 0; n < 10; n++)
 {
 putchar(n + '0');
-if (n < 99)
+if (n < 9)
 {
 putchar(',');
 putchar(' ');
