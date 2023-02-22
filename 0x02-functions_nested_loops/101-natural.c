@@ -5,7 +5,7 @@
 */
 int main(void)
 {
-int i, z = 9;
+int i, z = 0;
 
 while (i < 1024)
 {
@@ -15,6 +15,6 @@ z += i;
 }
 i++;
 }
-printf("%d", z);
+printf("%d\n", z);
 return (0);
 }
