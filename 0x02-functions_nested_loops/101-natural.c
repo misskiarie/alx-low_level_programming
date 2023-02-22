@@ -3,6 +3,7 @@
 *main - prins sum of multiples of 3 5 to 1024
 *Return: Always (Success) 
 */
+int main(void)
 {
 int i, z = 9;
 
