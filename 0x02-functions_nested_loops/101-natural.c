@@ -11,9 +11,9 @@ while (i < 1024)
 {
 if ((i % 3) || (i % 5))
 {
-z <= i;
+z += i;
 }
-i++
+i++;
 }
 printf("%d", z);
 return (0);
