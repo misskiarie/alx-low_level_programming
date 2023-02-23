@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
 *main - prins sum of multiples of 3 5 to 1024
-*Return: Always (Success) 
+*Return: Always (Success)
 */
 int main(void)
 {
